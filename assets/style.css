@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* =========================================================
    Fundamente des Glaubens – Gestaltung
    Farben und Schriften zentral hier ändern.
@@ -7,6 +8,7 @@
 @font-face { font-family: "EB Garamond"; src: url("schriften/eb-garamond-kursiv.woff2") format("woff2"); font-weight: 400; font-style: italic; font-display: swap; }
 @font-face { font-family: "Archivo"; src: url("schriften/archivo.woff2") format("woff2"); font-weight: 400 600; font-style: normal; font-display: swap; }
 :root {
+  color-scheme: only light;  /* "only": Browser darf die Seite nicht selbst umfärben */
   --blau: #5793CA;            /* Hauptfarbe: Überschriften, Fragen, Links, Einband */
   --einband: #5793CA;         /* Hintergrund der Startseite */
   --einband-schrift: #ffffff; /* große Schrift auf dem Einband */
@@ -29,6 +31,7 @@
   --kurve: cubic-bezier(0.32, 0.72, 0, 1);
 }
 .dark {
+  color-scheme: only dark;
   --blau: #7FB2E2;
   --einband: #2D5A86;
   --einband-label: #F2F6FA;
