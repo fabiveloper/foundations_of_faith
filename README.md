@@ -69,7 +69,7 @@ Die Seite lädt nichts von fremden Servern: Die Schriften liegen in `assets/schr
 ## Veröffentlichen auf GitHub Pages
 
 1. Settings → Pages → Source: GitHub Actions.
-2. Settings → Secrets and variables → Actions → Variables: `PAGES_RELEASE_APPROVED` = `true`.
+2. Settings → Secrets and variables → Actions → Variables entsprechend anpassen
 3. Actions → „Publish Fundamente des Glaubens (gated)“ manuell starten.
 4. Für die öffentliche Auffindbarkeit: `noindex,nofollow` in den HTML-Dateien entfernen und `robots.txt` auf `Allow: /` stellen.
 
