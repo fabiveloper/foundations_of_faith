@@ -1,0 +1,7 @@
+Schriften in diesem Ordner (lokal eingebunden, auf lateinische Zeichen reduziert):
+
+EB Garamond – Copyright 2017 The EB Garamond Project Authors (https://github.com/octaviopardo/EBGaramond12)
+Archivo – Copyright 2020 The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+
+Beide Schriften stehen unter der SIL Open Font License, Version 1.1.
+Lizenztext und FAQ: https://openfontlicense.org

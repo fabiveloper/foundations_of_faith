@@ -1,0 +1,40 @@
+name: Publish Fundamente des Glaubens (gated)
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  deploy:
+    if: ${{ vars.PAGES_RELEASE_APPROVED == 'true' }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Reject unfinished legal drafts
+        shell: bash
+        run: |
+          if grep -qE 'DRAFT_LEGAL|OFFEN:|Unvollständiger Entwurf|Platzhalter:' impressum.html datenschutz.html; then
+            echo "Rechtsangaben sind noch nicht vollständig. Keine Veröffentlichung."
+            exit 1
+          fi
+      - name: Collect static files (no build)
+        run: |
+          mkdir _site
+          cp ./*.html robots.txt .nojekyll _site/
+          cp -R assets inhalte _site/
+          rm -f _site/inhalte/_vorlage.js
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,331 @@
+/* =========================================================
+   Fundamente des Glaubens – Gestaltung
+   Farben und Schriften zentral hier ändern.
+   Schriften liegen lokal in assets/schriften/ (keine Verbindung zu Google).
+   ========================================================= */
+@font-face { font-family: "EB Garamond"; src: url("schriften/eb-garamond.woff2") format("woff2"); font-weight: 400 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "EB Garamond"; src: url("schriften/eb-garamond-kursiv.woff2") format("woff2"); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: "Archivo"; src: url("schriften/archivo.woff2") format("woff2"); font-weight: 400 600; font-style: normal; font-display: swap; }
+:root {
+  --blau: #5793CA;            /* Hauptfarbe: Überschriften, Fragen, Links, Einband */
+  --einband: #5793CA;         /* Hintergrund der Startseite */
+  --einband-schrift: #ffffff; /* große Schrift auf dem Einband */
+  --einband-label: #13263C;   /* kleine Schrift auf dem Einband */
+  --text: #24384F;            /* Lesetext */
+  --gedaempft: #5B6C80;       /* Nebentexte */
+  --hintergrund: #FCFDFE;
+  --flaeche: #EAF2FB;         /* Bibelzitate, Bänder */
+  --orange: #EE8400;          /* Lesebändchen, Sterne */
+  --orange-text: #B35C00;     /* kleine orange Schrift */
+  --rand: rgba(87, 147, 202, 0.35);
+  --schatten: 0 12px 40px rgba(19, 38, 60, 0.18);
+
+  --serif: "EB Garamond", Georgia, "Times New Roman", serif;
+  --sans: "Archivo", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --radius: 6px;
+  --spalte: 44rem;
+  --breit: 64rem;
+  --dauer: 320ms;
+  --kurve: cubic-bezier(0.32, 0.72, 0, 1);
+}
+.dark {
+  --blau: #7FB2E2;
+  --einband: #2D5A86;
+  --einband-label: #F2F6FA;
+  --text: #E2E9F1;
+  --gedaempft: #9FAFC0;
+  --hintergrund: #0F1823;
+  --flaeche: #1A2636;
+  --orange-text: #F3A24C;
+  --rand: rgba(127, 178, 226, 0.35);
+  --schatten: 0 12px 40px rgba(0, 0, 0, 0.45);
+}
+
+* { box-sizing: border-box; }
+html { scroll-padding-top: 88px; }
+body {
+  margin: 0;
+  background: var(--hintergrund);
+  color: var(--text);
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: inherit; text-decoration: none; }
+button { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; }
+:focus-visible { outline: 2px solid var(--blau); outline-offset: 3px; border-radius: 4px; }
+.laden { padding: 4rem; font-family: var(--serif); font-size: 1.5rem; color: var(--gedaempft); }
+
+/* ---------- Kopfleiste (immer hell, unabhängig vom Einband) ---------- */
+.kopf {
+  position: sticky; top: 0; z-index: 40;
+  display: flex; align-items: center; justify-content: space-between; gap: 1rem;
+  height: 64px; padding: 0 2rem;
+  background: color-mix(in srgb, var(--hintergrund) 92%, transparent);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--rand);
+}
+.marke { font-family: var(--serif); font-size: 1.3rem; font-weight: 500; color: var(--blau); letter-spacing: 0.01em; }
+.kopf-aktionen { display: flex; align-items: center; gap: 0.25rem; }
+.knopf-geist {
+  display: inline-flex; align-items: center; gap: 0.5rem;
+  height: 40px; padding: 0 0.85rem; border-radius: var(--radius);
+  font-size: 14px; font-weight: 500; color: var(--text);
+  transition: background var(--dauer) var(--kurve);
+}
+.knopf-geist:hover { background: var(--flaeche); }
+.knopf-geist svg { width: 18px; height: 18px; }
+.nur-mobil { display: none; }
+@media (max-width: 1023px) { .nur-mobil { display: inline-flex; } .nur-breit { display: none; } .kopf { padding: 0 1rem; } }
+
+/* ---------- Daumenregister ---------- */
+.register {
+  position: fixed; right: 0; top: 50%; transform: translateY(-50%); z-index: 30;
+  display: flex; flex-direction: column; align-items: flex-end; gap: 4px;
+}
+.reiter {
+  position: relative; overflow: hidden;
+  display: flex; justify-content: center;
+  width: 40px; padding: 1rem 0;
+  border-radius: 12px 0 0 12px;
+  background: var(--flaeche); color: var(--text);
+  box-shadow: 0 1px 3px rgba(19, 38, 60, 0.15);
+  font-size: 14px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase;
+  transition: width var(--dauer) var(--kurve), background var(--dauer) var(--kurve);
+}
+.reiter span:last-child { writing-mode: vertical-rl; }
+.reiter .kante { position: absolute; inset: 0 auto 0 0; width: 4px; background: var(--kapitel); }
+.reiter:hover { width: 48px; }
+.reiter.aktiv { width: 56px; background: var(--blau); color: var(--einband-label); }
+@media (max-width: 1023px) { .register { display: none; } }
+
+/* ---------- Allgemein ---------- */
+.breit { max-width: var(--breit); margin: 0 auto; padding: 0 3rem; }
+.spalte { max-width: var(--spalte); margin: 0 auto; padding: 0 1.5rem; position: relative; }
+@media (max-width: 767px) { .breit { padding: 0 1.5rem; } }
+.label { font-size: 14px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--orange-text); margin: 0; }
+.kapitelmarke {
+  display: inline-flex; align-items: center; gap: 0.5rem;
+  font-size: 14px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase;
+  color: color-mix(in srgb, var(--text) 78%, transparent);
+}
+.kapitelmarke::before { content: ""; width: 10px; height: 10px; border-radius: 50%; background: var(--kapitel); flex: none; }
+.marke-klein { font-size: 14px; font-weight: 500; letter-spacing: 0; text-transform: none; }
+.abzeichen {
+  display: inline-flex; align-items: center; height: 22px; padding: 0 0.5rem;
+  border: 1px solid var(--rand); border-radius: 999px;
+  font-family: var(--sans); font-size: 12px; font-weight: 500; letter-spacing: 0; text-transform: none; color: var(--gedaempft);
+  vertical-align: middle;
+}
+.seite { animation: einblenden 520ms var(--kurve) both; }
+@keyframes einblenden { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { .seite, .glanz { animation: none !important; } }
+
+/* ---------- Einband (Startseite) ---------- */
+.einband { background: var(--einband); padding: 2rem 3rem 4rem; }
+.einband-rahmen { max-width: 72rem; margin: 0 auto; padding: 8px; border: 1px solid rgba(255,255,255,0.5); border-radius: 8px; }
+.einband-innen {
+  display: grid; grid-template-columns: 1.4fr 1fr; gap: 3rem; align-items: center;
+  padding: 6rem 4rem; border: 1px solid rgba(255,255,255,0.3); border-radius: 3px;
+}
+.einband .label { color: var(--einband-label); letter-spacing: 0.3em; }
+.titel {
+  margin: 1.5rem 0 0; font-family: var(--serif); font-weight: 500; line-height: 0.98;
+  font-size: clamp(3.5rem, 8vw, 7.5rem); color: var(--einband-schrift);
+}
+.glanz {
+  background-image: linear-gradient(105deg, #fff 0%, #fff 42%, #cfe3f6 50%, #fff 58%, #fff 100%);
+  background-size: 250% 100%; background-position: 100% 0;
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+  animation: glanz 9s cubic-bezier(0.45, 0, 0.2, 1) 0.6s infinite;
+}
+@keyframes glanz { 0% { background-position: 100% 0; } 22%, 100% { background-position: 0% 0; } }
+.untertitel { margin: 3rem 0 0; max-width: 34rem; font-family: var(--serif); font-style: italic; font-size: 1.6rem; line-height: 1.3; color: var(--einband-schrift); }
+.einband-knoepfe { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 3rem; }
+.knopf-hell {
+  display: inline-flex; align-items: center; gap: 0.6rem; height: 44px; padding: 0 1.1rem;
+  border-radius: var(--radius); background: #fff; color: #13263C; font-size: 15px; font-weight: 600;
+  transition: transform 160ms var(--kurve), background var(--dauer);
+}
+.knopf-hell:hover { background: #F1F6FC; }
+.knopf-hell:active { transform: translateY(1px); }
+.knopf-hell svg { width: 18px; height: 18px; }
+.knopf-umriss {
+  display: inline-flex; align-items: center; height: 44px; padding: 0 1.1rem; border-radius: var(--radius);
+  border: 1px solid rgba(255,255,255,0.7); color: #fff; font-size: 15px; font-weight: 500;
+  transition: background var(--dauer);
+}
+.knopf-umriss:hover { background: rgba(255,255,255,0.15); }
+.gedanke {
+  display: flex; flex-direction: column; gap: 1.5rem; padding: 2rem;
+  background: var(--hintergrund); color: var(--text); border-radius: 8px; box-shadow: var(--schatten);
+}
+.gedanke-text { margin: 0; font-family: var(--serif); font-style: italic; font-size: 1.55rem; line-height: 1.3; color: var(--blau); }
+.gedanke-fuss { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+.knopf-klein {
+  height: 34px; padding: 0 0.8rem; border: 1px solid var(--rand); border-radius: var(--radius);
+  font-size: 14px; font-weight: 500; color: var(--text); background: var(--hintergrund); transition: background var(--dauer);
+}
+.knopf-klein:hover { background: var(--flaeche); }
+@media (max-width: 1023px) {
+  .einband { padding: 1rem 1rem 3rem; }
+  .einband-innen { grid-template-columns: 1fr; padding: 4rem 1.75rem; }
+  .gedanke { display: none; }
+}
+
+/* ---------- Startseite: Bereiche ---------- */
+.bereich { padding: 6rem 0; }
+.bereich.getoent { background: var(--flaeche); }
+.raster { display: grid; gap: 3rem 4rem; margin-top: 3rem; }
+.raster-2 { grid-template-columns: repeat(2, 1fr); }
+.raster-3 { grid-template-columns: repeat(3, 1fr); gap: 2.5rem 3rem; }
+@media (max-width: 1023px) { .raster-3 { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 767px) { .raster-2, .raster-3 { grid-template-columns: 1fr; } .bereich { padding: 4rem 0; } }
+.frage-eintrag { display: flex; flex-direction: column; gap: 0.75rem; }
+.frage-eintrag .oben { display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem; font-size: 14px; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; color: var(--gedaempft); }
+.frage-text { font-family: var(--serif); font-style: italic; font-size: 1.9rem; line-height: 1.2; color: var(--blau); transition: color var(--dauer); }
+.frage-eintrag:hover .frage-text, .anriss:hover .anriss-titel, .liste-eintrag:hover { color: var(--orange-text); }
+.mehr { display: inline-flex; align-items: center; gap: 0.4rem; font-size: 14px; color: var(--gedaempft); }
+.mehr svg { width: 16px; height: 16px; transition: transform var(--dauer) var(--kurve); }
+.frage-eintrag:hover .mehr svg { transform: translateX(4px); }
+.anriss { display: flex; flex-direction: column; gap: 0.5rem; }
+.anriss-titel { font-family: var(--serif); font-size: 1.55rem; line-height: 1.2; color: var(--blau); transition: color var(--dauer); }
+.anriss-text {
+  font-size: 16px; line-height: 1.6; color: var(--gedaempft);
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+.spalten-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 3rem; }
+@media (max-width: 767px) { .spalten-3 { grid-template-columns: 1fr; } }
+.liste { display: flex; flex-direction: column; gap: 0.75rem; }
+.liste-eintrag { font-family: var(--serif); font-size: 1.55rem; line-height: 1.25; color: var(--blau); transition: color var(--dauer); }
+
+/* ---------- Themen-Seite ---------- */
+.artikel { padding: 5rem 0 6rem; }
+.artikel h1 { margin: 1rem 0 0; font-family: var(--serif); font-weight: 500; font-size: clamp(2.6rem, 5vw, 3.75rem); line-height: 1.1; color: var(--blau); }
+.leitfrage { margin: 1.5rem 0 0; font-family: var(--serif); font-style: italic; font-size: 1.9rem; line-height: 1.3; color: color-mix(in srgb, var(--text) 82%, transparent); }
+.inhalt-kasten { margin-top: 3rem; padding: 1.5rem; border-radius: 8px; background: var(--flaeche); display: flex; flex-direction: column; gap: 1.25rem; }
+.inhalt-kasten .zeile { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem; }
+.umschalter { display: inline-flex; border: 1px solid var(--rand); border-radius: var(--radius); overflow: hidden; background: var(--hintergrund); }
+.umschalter button { height: 34px; padding: 0 0.8rem; font-size: 14px; color: var(--text); }
+.umschalter button + button { border-left: 1px solid var(--rand); }
+.umschalter button[aria-pressed="true"] { background: var(--flaeche); font-weight: 500; }
+.sprungliste { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.4rem; }
+.sprungliste button { text-align: left; font-family: var(--serif); font-size: 1.25rem; color: var(--blau); transition: color var(--dauer); }
+.sprungliste button:hover { color: var(--orange-text); }
+.fluss { display: flex; flex-direction: column; gap: 1.5rem; }
+.abschnitte { display: flex; flex-direction: column; gap: 4rem; margin-top: 4rem; }
+.abschnitte.kurz { gap: 2.5rem; margin-top: 3rem; }
+.abschnitt { display: flex; flex-direction: column; gap: 1.5rem; }
+.abschnitt h2 { margin: 0; font-family: var(--serif); font-weight: 500; font-size: 2.25rem; line-height: 1.15; color: var(--blau); }
+.abschnitte.kurz h2 { font-size: 1.6rem; }
+.einleitung { margin-top: 3rem; }
+.absatz { margin: 0; font-family: var(--serif); font-size: 1.25rem; line-height: 1.65; }
+.absatz strong { font-weight: 500; color: var(--blau); }
+.bibel { margin: 0; padding: 1.5rem 2rem; border-radius: 8px; background: var(--flaeche); }
+.bibel figcaption { font-size: 14px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--orange-text); }
+.bibel blockquote { margin: 0.75rem 0 0; font-family: var(--serif); font-size: 1.25rem; line-height: 1.6; }
+.vers { font-family: var(--sans); font-size: 13px; font-weight: 600; color: var(--orange-text); margin-right: 0.25rem; vertical-align: super; line-height: 0; }
+.kern { padding: 1.5rem 2rem; border: 1px solid var(--rand); border-radius: 8px; background: var(--hintergrund); }
+.kern p:last-child { margin: 0.5rem 0 0; font-family: var(--serif); font-style: italic; font-size: 1.5rem; line-height: 1.35; color: var(--blau); }
+.geschichte { display: flex; flex-direction: column; gap: 0.75rem; padding: 0.25rem 0 0.25rem 1.5rem; border-left: 2px solid color-mix(in srgb, var(--orange) 55%, transparent); font-family: var(--serif); font-style: italic; font-size: 1.25rem; line-height: 1.6; }
+.geschichte p { margin: 0; }
+.gedicht { display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem; font-family: var(--serif); font-size: 1.25rem; line-height: 1.6; }
+.gedicht p { margin: 0; }
+.gedicht p:nth-child(even) { padding-left: 1.5rem; }
+@media (max-width: 767px) { .gedicht { grid-template-columns: 1fr; } .bibel, .kern { padding: 1.25rem 1.25rem; } }
+.leer { margin-top: 4rem; padding: 3rem; border-radius: 8px; background: var(--flaeche); text-align: center; }
+.leer strong { display: block; font-family: var(--serif); font-size: 1.6rem; font-weight: 500; color: var(--blau); }
+.leer span { color: var(--gedaempft); }
+.blaettern { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 6rem; }
+.blaettern a { display: flex; flex-direction: column; gap: 0.25rem; padding: 1.5rem; border-radius: 8px; background: var(--flaeche); transition: background var(--dauer); }
+.blaettern a:hover { background: color-mix(in srgb, var(--blau) 18%, var(--hintergrund)); }
+.blaettern .richtung { font-size: 14px; color: var(--gedaempft); }
+.blaettern .ziel { font-family: var(--serif); font-size: 1.25rem; color: var(--blau); }
+.blaettern .weiter { text-align: right; grid-column: 2; }
+@media (max-width: 767px) { .blaettern { grid-template-columns: 1fr; } .blaettern .weiter { grid-column: 1; } }
+
+/* Lesebändchen */
+.band-halter { position: sticky; top: 64px; height: 0; z-index: 10; }
+.band {
+  position: absolute; left: -4rem; top: 0; width: 16px; background: var(--orange);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% calc(100% - 10px), 0 100%);
+  transition: height 120ms linear;
+}
+@media (max-width: 1023px) { .band-halter { display: none; } }
+
+/* Bibelstellen im Text */
+.stelle { color: var(--blau); text-decoration: underline; text-decoration-color: color-mix(in srgb, var(--orange) 60%, transparent); text-underline-offset: 4px; text-decoration-thickness: 1px; cursor: pointer; }
+.stelle:hover { text-decoration-color: var(--orange); }
+.blase {
+  position: absolute; z-index: 60; width: min(22rem, calc(100vw - 2rem)); padding: 1.25rem;
+  background: var(--hintergrund); border: 1px solid var(--rand); border-radius: 8px; box-shadow: var(--schatten);
+  animation: einblenden 200ms var(--kurve) both;
+}
+.blase .label { margin-bottom: 0.5rem; }
+.blase p { margin: 0 0 0.5rem; font-family: var(--serif); font-size: 1.15rem; line-height: 1.4; }
+
+/* Vorwort-Seite */
+.brief { padding: 6rem 0; }
+.brief h1 { margin: 1rem 0 2.5rem; font-family: var(--serif); font-weight: 500; font-size: clamp(2.6rem, 5vw, 3.75rem); line-height: 1.1; color: var(--blau); }
+.brief .absatz:first-of-type::first-letter { float: left; font-size: 4.2rem; line-height: 0.9; padding: 0.35rem 0.5rem 0 0; color: var(--blau); }
+.brief-fuss { margin-top: 3rem; }
+.knopf-blau { display: inline-flex; align-items: center; gap: 0.5rem; height: 44px; padding: 0 1.1rem; border-radius: var(--radius); background: var(--flaeche); color: var(--blau); font-weight: 600; font-size: 15px; transition: background var(--dauer); }
+.knopf-blau:hover { background: color-mix(in srgb, var(--blau) 18%, var(--hintergrund)); }
+
+/* Suche */
+.schleier { position: fixed; inset: 0; z-index: 70; background: rgba(15, 24, 35, 0.45); display: flex; justify-content: center; align-items: flex-start; padding: 12vh 1rem 1rem; animation: einblenden 160ms ease both; }
+.suche { width: min(40rem, 100%); max-height: 70vh; display: flex; flex-direction: column; background: var(--hintergrund); border-radius: 10px; box-shadow: var(--schatten); overflow: hidden; }
+.suche input { height: 56px; padding: 0 1.25rem; border: 0; border-bottom: 1px solid var(--rand); background: transparent; color: var(--text); font: inherit; font-size: 17px; outline: none; }
+.treffer { overflow-y: auto; padding: 0.5rem; }
+.treffer a { display: flex; flex-direction: column; gap: 0.1rem; padding: 0.7rem 0.85rem; border-radius: var(--radius); }
+.treffer a.markiert, .treffer a:hover { background: var(--flaeche); }
+.treffer .t1 { font-weight: 500; }
+.treffer .t2 { font-size: 14px; color: var(--gedaempft); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.treffer .gruppe { padding: 0.75rem 0.85rem 0.25rem; font-size: 13px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gedaempft); }
+.treffer .nichts { padding: 1.5rem; text-align: center; color: var(--gedaempft); }
+
+/* Mobiles Menü */
+.menue { position: fixed; inset: 0 0 0 auto; z-index: 70; width: min(22rem, 88vw); padding: 1.5rem; overflow-y: auto; background: var(--hintergrund); box-shadow: var(--schatten); animation: hereinschieben 280ms var(--kurve) both; }
+@keyframes hereinschieben { from { transform: translateX(100%); } to { transform: none; } }
+.menue h2 { margin: 0 0 1.5rem; font-family: var(--serif); font-weight: 500; font-size: 1.75rem; color: var(--blau); }
+.menue nav { display: flex; flex-direction: column; gap: 1.5rem; }
+.menue .gruppe { display: flex; flex-direction: column; gap: 0.5rem; }
+.menue a.eintrag { font-family: var(--serif); font-size: 1.15rem; line-height: 1.3; }
+.menue a.eintrag.aktiv { color: var(--blau); text-decoration: underline; text-decoration-color: var(--orange); text-underline-offset: 4px; }
+.menue .schliessen { position: absolute; top: 1rem; right: 1rem; }
+
+/* Fuß */
+.fuss { background: var(--flaeche); padding: 3rem 0; position: relative; z-index: 20; }
+.fuss p { margin: 0; max-width: 42rem; font-size: 14px; line-height: 1.6; color: var(--gedaempft); }
+.fuss p strong { display: block; margin-bottom: 0.25rem; color: var(--text); }
+.fuss .links { margin-top: 1rem; display: flex; gap: 1.5rem; font-size: 14px; }
+.fuss .links a { color: var(--blau); }
+
+.gedanke .label { color: var(--orange-text); letter-spacing: 0.12em; }
+.gedanke .knopf-klein { white-space: nowrap; flex: none; }
+.blase .label { font-family: var(--sans); font-size: 14px; }
+.blase { max-height: min(70vh, 34rem); overflow-y: auto; }
+@media (max-width: 480px) { .marke { font-size: 1.1rem; white-space: nowrap; } }
+
+/* Rechtsseiten */
+.recht h2 { margin: 2.5rem 0 0.75rem; font-family: var(--serif); font-weight: 500; font-size: 1.6rem; line-height: 1.2; color: var(--blau); }
+.recht .absatz { font-size: 1.15rem; }
+.recht .absatz + .absatz { margin-top: 0.75rem; }
+.recht a { color: var(--blau); text-decoration: underline; text-underline-offset: 3px; }
+.platzhalter { margin: 0.75rem 0 0; padding: 0.75rem 1rem; border-left: 3px solid var(--orange); background: color-mix(in srgb, var(--orange) 10%, var(--hintergrund)); font-size: 15px; }
+.zurueck-link { display: inline-block; margin-bottom: 2rem; font-size: 14px; color: var(--gedaempft); }
+.zurueck-link:hover { color: var(--blau); }
+
+/* Bibelübersetzung umschalten */
+.bibel-kopf { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.75rem; }
+.wechsler { display: inline-flex; flex-wrap: wrap; border: 1px solid var(--rand); border-radius: 999px; overflow: hidden; background: var(--hintergrund); }
+.wechsler button { height: 30px; padding: 0 0.75rem; font-size: 13px; font-weight: 500; color: var(--gedaempft); transition: background var(--dauer), color var(--dauer); }
+.wechsler button + button { border-left: 1px solid var(--rand); }
+.wechsler button:hover { color: var(--text); }
+.wechsler button[aria-pressed="true"] { background: var(--blau); color: #fff; }
+.bibel-quelle { margin: 0.75rem 0 0; font-family: var(--sans); font-size: 13px; color: var(--gedaempft); }
+.bibel-fehlt { margin: 0.75rem 0 0; font-family: var(--sans); font-size: 15px; font-style: italic; color: var(--gedaempft); }
+.blase-fuss { margin-top: 0.75rem; }
+.blase .bibel-quelle { margin-top: 0.5rem; font-family: var(--sans); font-size: 12px; }
+.blase .wechsler button { height: 28px; padding: 0 0.6rem; font-size: 12px; }
