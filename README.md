@@ -1,6 +1,6 @@
 # Fundamente des Glaubens
 
-Öffnen: Über **index.html** oder **fabiveloper.github.io/foundation_of_faith**.
+Öffnen: Über **index.html** oder über die **[Website](https://fabiveloper.github.io/foundations_of_faith/)**.
 
 ## Ordner
 
