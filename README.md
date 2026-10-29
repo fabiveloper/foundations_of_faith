@@ -1,6 +1,6 @@
 # Fundamente des Glaubens
 
-Öffnen: **index.html** doppelklicken. Läuft ohne Installation und ohne Server, in Firefox, Chrome und Edge.
+Öffnen: Über **index.html** oder **fabiveloper.github.io/foundation_of_faith**.
 
 ## Ordner
 
@@ -59,12 +59,6 @@ Optionale Felder pro Thema: `frage: "…"` (Leitfrage, ohne Anführungszeichen) 
 ## Neues Kapitel
 
 In `inhalte/inhalt.js` einen `Inhalt.kapitel({ … })`-Block kopieren, neue `id` vergeben (nur Kleinbuchstaben und Bindestriche), Ordner `inhalte/<id>/` anlegen. `kurz` ist die Beschriftung im Register rechts, `farbe` der kleine Farbakzent.
-
-## Rechtliches
-
-`impressum.html` und `datenschutz.html` sind fertig aufgebaut. Alles, was du noch ergänzen musst, ist orange markiert und beginnt mit `Platzhalter:` (Anschrift, zweiter Kontaktweg, GitHub-Angaben, E-Mail-Anbieter, Rechte an „Fußspuren im Sand“). Die Texte sind keine Rechtsberatung.
-
-Die Seite lädt nichts von fremden Servern: Die Schriften liegen in `assets/schriften/`. Gespeichert werden nur die Hell/Dunkel-Auswahl und die gewählte Bibelübersetzung im Browser.
 
 ## Veröffentlichen auf GitHub Pages
 
