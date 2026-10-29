@@ -68,8 +68,6 @@ Die Seite lädt nichts von fremden Servern: Die Schriften liegen in `assets/schr
 
 ## Veröffentlichen auf GitHub Pages
 
-Eigenes Repository `fundamente-des-glaubens` im Konto `fabiveloper` anlegen und den Inhalt dieses Ordners in die Wurzel legen. Die Adresse ist dann `https://fabiveloper.github.io/fundamente-des-glaubens/`.
-
 1. Settings → Pages → Source: GitHub Actions.
 2. Settings → Secrets and variables → Actions → Variables: `PAGES_RELEASE_APPROVED` = `true`.
 3. Actions → „Publish Fundamente des Glaubens (gated)“ manuell starten.
