@@ -30,6 +30,7 @@ Inhalt.kapitel({
     "unerhoerte-gebete",
     "deus-absconditus",
     "praedestination",
+    "kreuz",
     "schoepfung",
     "fuelle-der-zeit",
   ],

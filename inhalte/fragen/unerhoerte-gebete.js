@@ -16,7 +16,7 @@ Selbst die treuesten Nachfolger Jesu erlebten unerhörte Gebete. Der Apostel Pau
 
 > 2. Korinther 12, 8-9
 
-Gott nahm das Leid nicht weg, aber er gab Paulus die Kraft, damit zu leben. Das „Nein“ Gottes war hier ein „Ja“ zu einer tiefen geistlichen Reife. Paulus lernte, dass er nicht aus eigener Kraft, sondern aus Gottes Gnade lebt.
+Gott nahm das Leid nicht weg, aber er gab Paulus die Kraft, damit zu leben. Für Paulus wurde das „Nein“ Gottes so zu einer tiefen Erfahrung von Gottes Gnade. Paulus lernte, dass er nicht aus eigener Kraft, sondern aus Gottes Gnade lebt.
 
 !! Ein unerhörtes Gebet kann eine Einladung sein, Gottes Kraft in der eigenen Schwachheit neu zu entdecken. Manchmal ändert Gott nicht die Umstände, sondern unser Herz inmitten der Umstände.
 
@@ -26,9 +26,9 @@ Oft verstehen wir nicht, warum eine Heilung ausbleibt oder eine Tür verschlosse
 
 > Jesaja 55, 8-9
 
-Manchmal bewahrt uns ein „Nein“ vor Stolz, vor einem falschen Weg oder führt uns in eine Abhängigkeit von Gott, die uns letztlich rettet.
+Manchmal erkennen wir erst im Rückblick, dass ein „Nein“ uns vor Stolz oder vor einem falschen Weg bewahrt hat. Diese Erklärung lässt sich aber nicht auf jedes unerhörte Gebet übertragen.
 
-!! Gott antwortet oft auf drei Arten: „Ja“, „Noch nicht“ oder „Ich habe etwas Besseres für dich.“ Unerhörte Gebete fordern unser Vertrauen heraus, dass Gott gut ist, auch wenn wir seine Wege, seine Perspektive auf die Ewigkeit, nicht verstehen.
+!! Gott hört jedes Gebet, erfüllt aber nicht jede Bitte so, wie wir es erwarten. Unerhörte Gebete fordern unser Vertrauen heraus, dass Gott in seiner Liebe alles zum Besten lenkt, auch wenn wir seine Wege und seine Perspektive auf die Ewigkeit nicht verstehen.
 
 ## Das Gebet Jesu in Gethsemane
 
@@ -36,7 +36,7 @@ Das erschütterndste Beispiel für ein „unerhörtes“ Gebet finden wir bei Je
 
 > Lukas 22, 42
 
-Gott nahm den „Kelch“ (das Leiden und den Tod) nicht weg. Jesus musste diesen Weg gehen. Hätte Gott dieses Gebet mit „Ja“ beantwortet, gäbe es keine Erlösung für die Menschheit. Das Schweigen Gottes in dieser Nacht war die Voraussetzung für das Heil der Welt.
+Gott nahm den „Kelch“ (das Leiden und den Tod) nicht weg, schickte Jesus aber einen Engel, der ihn stärkte (Lukas 22, 43). Jesus stellte sich ganz unter den Willen seines Vaters und ging diesen Weg freiwillig. Durch sein Opfer wurde der Weg zum Heil für alle Menschen eröffnet.
 
 !! Gottes Schweigen ist kein Zeichen von Abwesenheit. Manchmal ist das Ausbleiben einer direkten Hilfe Teil eines viel größeren Heilsplans, der über unser momentanes Verständnis hinausgeht.
 
@@ -58,8 +58,8 @@ Oder Gebete, die aus rein egoistischen Motiven gesprochen werden:
 
 ## Gottes Allwissenheit und die Sinnhaftigkeit des Gebets
 
-Ein häufiger Einwand lautet: Wenn Gott allwissend ist, kennt er meine Gedanken und Bedürfnisse doch schon längst (Matthäus 6, 8) – warum also überhaupt noch fragen? Dass Gott alles im Voraus weiß, bedeutet jedoch nicht, dass Gebet überflüssig ist. Vielmehr hat Gott unsere freien Gebete in seiner Ewigkeit bereits in seinen Plan mit einbezogen. Er ist wie ein Vater, der zwar weiß, was sein Kind braucht, aber dennoch darauf wartet, dass es zu ihm kommt, um die Beziehung zu vertiefen. Gebet dient nicht dazu, Gott zu informieren, sondern uns in eine vertrauensvolle Abhängigkeit von ihm zu bringen.
+Ein häufiger Einwand lautet: Wenn Gott allwissend ist, kennt er meine Gedanken und Bedürfnisse doch schon längst (Matthäus 6, 8) – warum also überhaupt noch fragen? Dass Gott alles im Voraus weiß, bedeutet jedoch nicht, dass Gebet überflüssig ist. Gott ist wie ein Vater, der zwar weiß, was sein Kind braucht, aber dennoch darauf wartet, dass es zu ihm kommt, um die Beziehung zu vertiefen. Gebet dient nicht dazu, Gott zu informieren, sondern uns in eine vertrauensvolle Abhängigkeit von ihm zu bringen.
 
-!! Gott weiß zwar alles, aber er möchte dennoch gefragt werden. Er hat das Gebet als ein Mittel vorgesehen, durch das er in der Welt wirkt. So ist das Gebet keine Information an Gott, sondern eine Kooperation mit ihm.
+!! Gott weiß zwar alles, aber er möchte dennoch gefragt werden. Im Gebet antworte ich auf Gottes Wort und bringe meine Bitten, meinen Dank und meine Fürbitte vor ihn. So ist das Gebet keine Information an Gott, sondern gelebte Beziehung mit ihm.
 `
 });

@@ -1,6 +1,6 @@
 # Fundamente des Glaubens
 
-Öffnen: Über **index.html** oder **fabiveloper.github.io/foundation_of_faith**.
+Öffnen: Über **index.html** oder über die **[Website](https://fabiveloper.github.io/foundations_of_faith/)**.
 
 ## Ordner
 
@@ -9,6 +9,7 @@ index.html            Startdatei, nichts ändern
 README.md             diese Anleitung
 assets/style.css      Farben, Schriften, Abstände (oben bei :root)
 assets/app.js         das Programm, nichts ändern
+assets/mobil.js       Handy-Ansicht (Leiste unten, Kacheln), nichts ändern
 inhalte/inhalt.js     Inhaltsverzeichnis: Kapitel und Reihenfolge der Themen
 inhalte/vorwort.js    das Vorwort
 inhalte/bibel/        eine Datei pro Bibelübersetzung (Schlachter 1951, Elberfelder 1905, Luther 1912)

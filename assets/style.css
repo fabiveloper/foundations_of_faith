@@ -332,3 +332,93 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 .blase-fuss { margin-top: 0.75rem; }
 .blase .bibel-quelle { margin-top: 0.5rem; font-family: var(--sans); font-size: 12px; }
 .blase .wechsler button { height: 28px; padding: 0 0.6rem; font-size: 12px; }
+
+/* =========================================================
+   Handy-Ansicht (zusammen mit assets/mobil.js)
+   ========================================================= */
+.m-leiste, .m-kapitel, .m-chips { display: none; }
+
+@media (max-width: 1023px) {
+  /* Bottom tab bar replaces the header buttons */
+  .kopf { height: 56px; justify-content: center; }
+  .kopf-aktionen { display: none; }
+  body { padding-bottom: calc(64px + env(safe-area-inset-bottom)); }
+  .m-leiste {
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 50;
+    display: grid; grid-template-columns: repeat(4, 1fr);
+    height: calc(64px + env(safe-area-inset-bottom)); padding-bottom: env(safe-area-inset-bottom);
+    background: color-mix(in srgb, var(--hintergrund) 94%, transparent);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid var(--rand);
+  }
+  .m-leiste a, .m-leiste button {
+    display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px;
+    font-size: 12px; font-weight: 500; color: var(--gedaempft);
+  }
+  .m-leiste svg { width: 22px; height: 22px; }
+  .m-leiste .m-icon { display: contents; }
+  .m-leiste .aktiv { color: var(--blau); }
+  .fuss { padding-bottom: 2rem; }
+
+  /* Sticky answer chips on topic pages */
+  .m-chips {
+    display: block; position: sticky; top: 56px; z-index: 15;
+    margin: 1.5rem -1.5rem 0; padding: 0.6rem 0;
+    background: color-mix(in srgb, var(--hintergrund) 94%, transparent);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--rand);
+  }
+  .m-chips-spur { display: flex; gap: 0.5rem; overflow-x: auto; padding: 0 1.5rem; scrollbar-width: none; }
+  .m-chips-spur::-webkit-scrollbar { display: none; }
+  .m-chips button {
+    flex: none; display: inline-flex; align-items: center; gap: 0.45rem;
+    height: 36px; padding: 0 0.85rem; border-radius: 999px;
+    border: 1px solid var(--rand); background: var(--hintergrund);
+    font-size: 14px; font-weight: 500; color: var(--text); white-space: nowrap;
+  }
+  .m-chips .m-nr { font-size: 12px; font-weight: 600; color: var(--orange-text); }
+  .m-chips button.aktiv { background: var(--blau); border-color: var(--blau); color: #fff; }
+  .m-chips button.aktiv .m-nr { color: #fff; }
+  .handy .inhalt-kasten .sprungliste { display: none; }
+  .handy .inhalt-kasten { margin-top: 1rem; padding: 1rem; }
+  .abschnitt { scroll-margin-top: 130px; }
+}
+
+@media (max-width: 767px) {
+  /* Start page: compact cover, then chapter tiles instead of the long overview */
+  .einband { padding: 0.75rem 0.75rem 1.5rem; }
+  .einband-innen { padding: 2.25rem 1.25rem; }
+  .einband h1 { font-size: 2.6rem; line-height: 1.05; }
+  .einband-knoepfe { margin-top: 1.75rem; }
+  .handy main > .seite > .bereich { display: none; }
+  .m-kapitel { display: block; padding: 2rem 1.25rem 2.5rem; }
+  .m-kapitel h2 { margin: 0 0 1rem; font-size: 14px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--orange-text); }
+  .m-kacheln { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; }
+  .m-kachel {
+    position: relative; overflow: hidden;
+    display: flex; flex-direction: column; justify-content: space-between; gap: 1.25rem;
+    min-height: 96px; padding: 1rem 1rem 0.9rem 1.15rem; border-radius: 8px;
+    background: var(--flaeche); color: var(--text);
+  }
+  .m-kachel::before { content: ""; position: absolute; inset: 0 auto 0 0; width: 4px; background: var(--kapitel, var(--blau)); }
+  .m-kachel-name { font-family: var(--serif); font-size: 1.35rem; line-height: 1.15; color: var(--blau); }
+  .m-kachel-zahl { font-size: 13px; color: var(--gedaempft); }
+  .m-kachel:last-child:nth-child(odd) { grid-column: 1 / -1; min-height: 72px; }
+
+  /* Translation switcher: one line, full width */
+  .wechsler { display: flex; flex-wrap: nowrap; width: 100%; }
+  .wechsler button { flex: 1; padding: 0 0.4rem; font-size: 12px; white-space: nowrap; }
+
+  /* Topic and chapter pages: calmer type, less empty space */
+  .artikel h1 { font-size: 2.1rem; }
+  .artikel h2 { font-size: 1.6rem; line-height: 1.2; }
+  .leitfrage { font-size: 1.3rem; }
+  .artikel .abschnitte > .frage-eintrag {
+    padding: 1rem 1.1rem; border-radius: 8px; background: var(--flaeche); gap: 0.4rem;
+  }
+  .artikel .abschnitte { gap: 3rem; margin-top: 2.5rem; }
+  .artikel .abschnitte:has(> .frage-eintrag) { gap: 0.75rem; margin-top: 2rem; }
+  /* app.js sets inline sizes here, hence !important */
+  .artikel .abschnitte > .frage-eintrag .frage-text { font-size: 1.05rem !important; }
+  .artikel .abschnitte > .frage-eintrag .anriss-titel { font-size: 1.35rem !important; }
+}

@@ -12,7 +12,7 @@ Das deutlichste Beispiel für das Leiden eines Unschuldigen ist Jesus Christus s
 
 Diese Worte richteten sich damals an Christen in Kleinasien (heutige Türkei), die unter Druck oder Verfolgung litten. Jesus selbst hat als Unschuldiger gelitten.
 
-!! Leid ist somit nicht immer Strafe, sondern kann auch stellvertretendes Opfer sein. Das Leiden Jesu war auch Teil von Gottes Heilsplan, damit Menschen sich mit Gott versöhnen können.
+!! Leid ist somit nicht immer Strafe. Jesus litt nicht für eigene Schuld, sondern stellvertretend für uns. Sein Leiden war Teil von Gottes Heilsplan, damit Menschen sich mit Gott versöhnen können.
 
 ## Das Beispiel des Hiob
 
@@ -26,11 +26,11 @@ Ein weiterer Gedanke in Bezug auf das Leid Unschuldiger findet sich in Johannes 
 
 > Johannes 9, 2-3
 
-Diese Begebenheit macht deutlich: Nicht jedes Leid ist auf persönliche Schuld zurückzuführen oder als Strafe zu verstehen. Vielmehr zeigt Jesus, dass Leid auch einen höheren Sinn haben kann – nämlich, dass sich Gottes Wirken darin offenbart. In diesem Fall wurde der Mann durch Jesus geheilt und Gottes Macht und Barmherzigkeit wurden dadurch für viele sichtbar.
+Diese Begebenheit macht deutlich: Nicht jedes Leid ist auf persönliche Schuld zurückzuführen oder als Strafe zu verstehen. In diesem Fall wurde gerade an dem Leid Gottes Wirken offenbar: Der Mann wurde durch Jesus geheilt, und Gottes Macht und Barmherzigkeit wurden dadurch für viele sichtbar.
 
-Diese Sichtweise stellt unser Verständnis von Gerechtigkeit auf den Prüfstand. Gott sieht mehr als das, was ich sehe – er kennt die inneren Beweggründe, den größeren Zusammenhang und das Ziel, auf das alles zuläuft. Leid muss nicht sinnlos sein, auch wenn es sich für einen Menschen so anfühlt. Ich darf also daran glauben, dass Gott auch durch Leid wirkt – sei es zur Stärkung meines Glaubens, zur Ermutigung anderer oder als Teil eines größeren Heilsplans, den wir oft erst im Rückblick erkennen.
+Diese Sichtweise stellt unser Verständnis von Gerechtigkeit auf den Prüfstand. Gott sieht mehr als das, was ich sehe – er kennt die inneren Beweggründe, den größeren Zusammenhang und das Ziel, auf das alles zuläuft. Leid muss nicht sinnlos sein, auch wenn es sich für einen Menschen so anfühlt. Ich darf also hoffen, dass Gott auch im Leid gegenwärtig ist und daraus Gutes wirken kann, sei es zur Stärkung meines Glaubens, zur Ermutigung anderer oder als Teil seines Heilsplans. Warum ein bestimmtes Leid geschieht, bleibt mir dabei aber oft verborgen.
 
-!! Jesus widerspricht der Annahme, dass persönliches Leid immer eine direkte Folge von Schuld ist. Manchmal geschieht Leid, damit Gottes Eingreifen, Trost oder Heilung sichtbar werden.
+!! Jesus widerspricht der Annahme, dass persönliches Leid immer eine direkte Folge von Schuld ist. Und manchmal wird gerade im Leid Gottes Eingreifen, Trost oder Heilung sichtbar.
 
 ## Gott ist selbst im Dunkel bei uns
 
@@ -54,10 +54,10 @@ Bevor er starb, sah Stephanus den Himmel offen und Jesus zur Rechten Gottes steh
 
 Damit folgt er dem Vorbild Jesu, der am Kreuz für seine Feinde betete. Stephanus begegnete seinem Leid nicht mit Hass, sondern mit Vergebung und Hoffnung – im tiefen Vertrauen, dass Gott ihn empfängt.
 
-!! Diese Geschichte macht Mut, dass Gott diejenigen nicht vergisst, die um seines Namens willen leiden. Stephanus’ Glaube im Angesicht des Todes ist ein Zeugnis dafür, dass Gott selbst im schlimmsten Unrecht gegenwärtig ist – und dass Leid zur Offenbarung von Gottes Herrlichkeit und Treue werden kann. Sein Tod wurde zudem zum Ausgangspunkt für die weltweite Mission der Kirche, da durch die wachsende Christenverfolgung viele Gläubige aus Jerusalem flohen.
+!! Diese Geschichte macht Mut, dass Gott diejenigen nicht vergisst, die um seines Namens willen leiden. Stephanus’ Glaube im Angesicht des Todes ist ein Zeugnis dafür, dass Gott selbst im schlimmsten Unrecht gegenwärtig ist – und dass Leid zur Offenbarung von Gottes Herrlichkeit und Treue werden kann. Die Verfolgung nach seinem Tod führte außerdem dazu, dass viele Gläubige Jerusalem verließen und das Evangelium weitertrugen (Apostelgeschichte 8, 1-4).
 
 !! Jesus brach erst das Brot, bevor er es teilte.
 
-!! Gott hat David nicht einfach die Krone aufgesetzt, sondern einen Goliath vor ihn hingestellt.
+!! Gottes Führung heißt nicht, dass er alle Hindernisse fernhält. David wurde nicht einfach gekrönt, sondern musste zuerst Goliath gegenübertreten und durfte dabei auf Gottes Hilfe vertrauen.
 `
 });

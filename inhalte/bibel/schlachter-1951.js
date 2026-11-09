@@ -34,7 +34,8 @@ Inhalt.uebersetzung({
       "9": "sondern so hoch der Himmel über der Erde ist, so viel höher sind meine Wege als eure Wege und meine Gedanken als eure Gedanken."
     },
     "Lukas 22": {
-      "42": "und sprach: Vater, wenn du willst, so nimm diesen Kelch von mir! Doch nicht mein, sondern dein Wille geschehe!"
+      "42": "und sprach: Vater, wenn du willst, so nimm diesen Kelch von mir! Doch nicht mein, sondern dein Wille geschehe!",
+      "43": "Da erschien ihm ein Engel vom Himmel und stärkte ihn."
     },
     "Psalm 66": {
       "18": "Hätte ich Unrecht vorgehabt in meinem Herzen, so hätte der Herr nicht erhört;"
@@ -104,6 +105,64 @@ Inhalt.uebersetzung({
       "11": "Gib uns heute unser tägliches Brot.",
       "12": "Und vergib uns unsere Schulden, wie auch wir vergeben unsern Schuldnern.",
       "13": "Und führe uns nicht in Versuchung, sondern erlöse uns von dem Bösen. [Denn dein ist das Reich und die Kraft und die Herrlichkeit in Ewigkeit! Amen.]"
+    },
+    "2. Korinther 5": {
+      "19": "weil nämlich Gott in Christus war und die Welt mit sich selbst versöhnte, indem er ihnen ihre Sünden nicht zurechnete und das Wort der Versöhnung in uns legte.",
+      "21": "Denn er hat den, der von keiner Sünde wußte, für uns zur Sünde gemacht, auf daß wir in ihm Gerechtigkeit Gottes würden."
+    },
+    "5. Mose 25": {
+      "3": "Wenn man ihm vierzig Streiche gegeben hat, soll man nicht weiter schlagen, damit er nicht zu viel geschlagen werde, wenn man ihm mehr Streiche gibt, und damit dein Bruder nicht verächtlich gemacht werde in deinen Augen."
+    },
+    "Apostelgeschichte 8": {
+      "1": "Saulus aber hatte seiner Hinrichtung zugestimmt. Und es entstand an jenem Tage eine große Verfolgung über die Gemeinde zu Jerusalem, und alle zerstreuten sich in die Landschaften von Judäa und Samaria, ausgenommen die Apostel.",
+      "2": "Den Stephanus aber begruben gottesfürchtige Männer und veranstalteten eine große Trauer um ihn.",
+      "3": "Saulus aber verwüstete die Gemeinde, drang in die Häuser ein, schleppte Männer und Frauen fort und überlieferte sie ins Gefängnis.",
+      "4": "Die nun, welche sich zerstreut hatten, zogen umher und verkündigten das Wort des Evangeliums."
+    },
+    "Galater 5": {
+      "22": "Die Frucht des Geistes aber ist Liebe, Freude, Friede, Geduld, Freundlichkeit, Gütigkeit, Treue, Sanftmut, Enthaltsamkeit.",
+      "23": "Gegen solche Dinge gibt es kein Gesetz."
+    },
+    "Hebräer 10": {
+      "10": "In diesem Willen sind wir geheiligt durch die Aufopferung des Leibes Jesu Christi ein für allemal."
+    },
+    "Jesaja 53": {
+      "4": "Doch wahrlich, unsere Krankheit trug er, und unsere Schmerzen lud er auf sich; wir aber hielten ihn für bestraft, von Gott geschlagen und geplagt;",
+      "5": "aber er wurde durchbohrt um unserer Übertretung willen, zerschlagen wegen unserer Missetat; die Strafe, uns zum Frieden, lag auf ihm, und durch seine Wunden sind wir geheilt."
+    },
+    "Johannes 10": {
+      "17": "Darum liebt mich der Vater, weil ich mein Leben lasse, auf daß ich es wieder nehme.",
+      "18": "Niemand nimmt es von mir, sondern ich lasse es von mir aus. Ich habe Macht, es zu lassen, und habe Macht, es wieder zu nehmen. Diesen Auftrag habe ich von meinem Vater empfangen."
+    },
+    "Johannes 14": {
+      "26": "der Beistand aber, der heilige Geist, welchen mein Vater in meinem Namen senden wird, der wird euch alles lehren und euch an alles erinnern, was ich euch gesagt habe."
+    },
+    "Johannes 19": {
+      "1": "Da nahm Pilatus Jesus und ließ ihn geißeln."
+    },
+    "Lukas 24": {
+      "26": "Mußte nicht Christus solches leiden und in seine Herrlichkeit eingehen?"
+    },
+    "Markus 2": {
+      "5": "Als aber Jesus ihren Glauben sah, sprach er zu dem Gelähmten: Sohn, deine Sünden sind dir vergeben!"
+    },
+    "Matthäus 27": {
+      "46": "Und um die neunte Stunde rief Jesus mit lauter Stimme: Eli, Eli, lama sabachthani! das heißt: Mein Gott, mein Gott, warum hast du mich verlassen?"
+    },
+    "Römer 3": {
+      "23": "Denn es ist kein Unterschied: Alle haben gesündigt und ermangeln der Herrlichkeit Gottes,",
+      "24": "so daß sie gerechtfertigt werden ohne Verdienst, durch seine Gnade, mittels der Erlösung, die in Christus Jesus ist.",
+      "25": "Ihn hat Gott zum Sühnopfer verordnet, durch sein Blut, für alle, die glauben, zum Erweis seiner Gerechtigkeit, wegen der Nachsicht mit den Sünden, die zuvor geschehen waren unter göttlicher Geduld,",
+      "26": "zur Erweisung seiner Gerechtigkeit in der jetzigen Zeit, damit er selbst gerecht sei und zugleich den rechtfertige, der aus dem Glauben an Jesus ist."
+    },
+    "Römer 4": {
+      "5": "wer dagegen keine Werke verrichtet, sondern an den glaubt, der den Gottlosen rechtfertigt, dem wird sein Glaube als Gerechtigkeit angerechnet."
+    },
+    "Römer 5": {
+      "8": "Gott aber beweist seine Liebe gegen uns damit, daß Christus für uns gestorben ist, als wir noch Sünder waren."
+    },
+    "Römer 6": {
+      "23": "Denn der Tod ist der Sünde Sold; aber die Gnadengabe Gottes ist das ewige Leben in Christus Jesus, unsrem Herrn."
     }
   }
 });

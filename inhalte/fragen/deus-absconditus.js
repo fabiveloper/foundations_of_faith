@@ -2,7 +2,7 @@ Inhalt.thema({
   titel: "Deus absconditus",
   frage: "Warum zeigt sich Gott nicht offensichtlicher oder überhaupt einmal?",
   text: `
-Deus absconditus (lateinisch für „verborgener Gott“) beschreibt im Christentum die Auffassung, dass Gott seinem Wesen nach grundsätzlich unerkennbar ist. Aber wenn Gott existiert und möchte, dass wir an ihn glauben, warum macht er es uns dann nicht einfacher? Warum schreibt er seine Botschaft nicht für alle sichtbar an den Himmel oder erscheint jedem Menschen persönlich?
+Deus absconditus (lateinisch für „verborgener Gott“) ist ein Begriff aus der Theologie. Er drückt aus, dass Gott alles übersteigt, was wir mit unserem Verstand erfassen können. Von uns aus können wir Gott nicht erkennen. Gott verbirgt sich jedoch nicht, sondern offenbart sich uns: in der Schöpfung, in der Geschichte und vor allem in Jesus Christus. Trotzdem bleibt die Frage: Wenn Gott existiert und möchte, dass wir an ihn glauben, warum macht er es uns dann nicht einfacher? Warum schreibt er seine Botschaft nicht für alle sichtbar an den Himmel oder erscheint jedem Menschen persönlich?
 
 ## Gott als der ganz Andere
 
@@ -10,26 +10,26 @@ Gott ist nicht einfach ein Teil unserer Welt, den wir untersuchen können wie ei
 
 > Jesaja 45, 15
 
-Diese Verborgenheit ist kein Versteckspiel, sondern liegt im Wesen Gottes begründet. Ein Gott, den wir vollkommen verstehen und „beweisen“ könnten, wäre kein Gott mehr, sondern nur ein weiteres Objekt in unserer Welt.
+Dass Gott uns manchmal verborgen erscheint, ist kein Versteckspiel. Es liegt daran, dass er so viel größer ist als wir. Ein Gott, den wir vollkommen verstehen und „beweisen“ könnten, wäre kein Gott mehr, sondern nur ein weiteres Objekt in unserer Welt.
 
-!! Gott ist seinem Wesen nach heilig und unbegreiflich. Seine Verborgenheit schützt unsere Freiheit, uns ohne Zwang für ihn zu entscheiden.
+!! Gott ist seinem Wesen nach heilig und unbegreiflich. Wir können ihn nie vollständig erfassen. Erkennen können wir ihn trotzdem, weil er sich selbst offenbart.
 
 ## Die Freiheit der Entscheidung
 
-Würde Gott in seiner vollen Herrlichkeit und Macht für jeden sichtbar erscheinen, hätten wir keine Wahl mehr, an ihn zu glauben. Es wäre kein Vertrauen bzw. Glaube mehr nötig, sondern eine bloße Anerkennung von Tatsachen.
+Gott zwingt niemanden zum Glauben. Er offenbart sich so, dass der Mensch frei darauf antworten kann. Glaube ist dann keine bloße Anerkennung von Tatsachen, sondern Vertrauen.
 
 Gott möchte jedoch keine Unterwerfung aus Beweisnot, sondern eine Beziehung, die auf Liebe und freiem Vertrauen basiert.
 
-!! Die Verborgenheit Gottes lässt dem Menschen den Raum für eine freie Antwort. Wahrer Glaube beginnt dort, wo Beweise enden und Vertrauen wächst.
+!! Gott lässt dem Menschen den Raum für eine freie Antwort. Glaube ist die vertrauensvolle Antwort auf Gottes Offenbarung, auch dort, wo wir nicht alles beweisen oder begreifen können.
 
 ## Gott lässt sich finden – aber anders
 
-Obwohl Gott verborgen bleibt, hat er sich dennoch offenbart – jedoch nicht in überwältigender Macht, sondern in Demut. Der christliche Glaube lehrt, dass wir Gott nicht in der philosophischen Spekulation finden, sondern in Jesus Christus. In einem verletzlichen Kind in der Krippe und in einem leidenden Mann am Kreuz zeigt Gott, wer er ist.
+Gott hat sich offenbart, und zwar nicht nur in Macht, sondern auch in Demut. Der christliche Glaube lehrt, dass wir Gott nicht in der philosophischen Spekulation finden, sondern in Jesus Christus. In einem verletzlichen Kind in der Krippe und in einem leidenden Mann am Kreuz zeigt Gott, wer er ist.
 
 > Johannes 1, 18
 
-Gott verbirgt sich vor dem stolzen Verstand, der Beweise fordert, aber er lässt sich von dem finden, der ihn aufrichtig sucht.
+Wer nur Beweise fordert, tut sich schwer, Gott zu finden. Wer ihn aber aufrichtig sucht, dem lässt er sich finden.
 
-!! Gott offenbart sich „unter dem Gegenteil“: in der Schwachheit statt in der Macht, in der Stille statt im Lärm. Wer Gott sucht, findet ihn nicht in spektakulären Zeichen, sondern in der Person Jesu Christi und im Zeugnis der Mitmenschen.
+!! Gott offenbart sich nicht nur in überwältigender Macht, sondern auch in der Krippe und am Kreuz. Wer Gott sucht, findet ihn vor allem in Jesus Christus, in seinem Wort und im Zeugnis der Mitmenschen.
 `
 });

@@ -14,17 +14,19 @@ Wir befinden uns bereits seit dem Sündenfall (beschrieben in 1. Mose 3) in eine
 
 !! Das Leid in der Welt ist eine Folge des Sündenfalls. Der Mensch hat sich bewusst von Gott abgewandt. Dadurch ist die Schöpfung in einen gefallenen Zustand geraten, in dem Leid, Tod und Böses möglich wurden.
 
-## Nicht „Warum?“ – sondern „Wozu?“
+## Neben dem „Warum?“ auch das „Wozu?“
 
 Gott ist treu, auch in den dunkelsten Momenten, etwa als Josef von seinen Brüdern verkauft wurde (1. Mose 37-50). Gott war nicht abwesend. Er hat zwar Josef nicht vor dem Leid bewahrt, aber durch das Leid geführt (Sandspuren in der Wüste) – hin zu einem größeren Plan: die Rettung vieler Menschen vor dem Hungertod.
 
-!! Wir sollten uns nicht fragen „Warum?“ – sondern „Wozu?“. Leid formt Menschen und hat Josef zur Reife, Verantwortung und Weitsicht geführt – und ihn zu Gottes Werkzeug für die Rettung vieler Menschen gemacht.
+Woher das Böse letztlich kommt und warum ein bestimmtes Leid geschieht, lässt sich mit dem Verstand allein nicht vollständig erklären. Die Frage nach dem „Warum?“ bleibt deshalb oft offen.
+
+!! Ich darf neben dem „Warum?“ auch fragen: „Wozu?“ und „Wie begleitet mich Gott?“. Bei Josef hat Gott aus dem Leid Gutes werden lassen: Es führte ihn zu Reife, Verantwortung und Weitsicht und machte ihn zu Gottes Werkzeug für die Rettung vieler Menschen. Das heißt aber nicht, dass ich hinter jedem Leid einen bestimmten Zweck erkennen muss.
 
 ## Gottes Leid in Jesus Christus
 
-Das Kreuz ist Gottes tiefste Antwort auf das Böse: Er selbst nimmt es auf sich, um uns zu retten. In Jesus Christus hat Gott selbst das menschliche Leid, den Schmerz, die Ungerechtigkeit und den Tod auf sich genommen. Gott ist also nicht fern von Leid, sondern weiß ganz genau, wie sich der tiefste Schmerz, der Tod, anfühlt. Sünde trennt den Menschen von Gott, und da Jesus die Konsequenzen der Sünden der Menschheit auf sich nahm, erlebte er auch die Trennung von Gott. Jesus hat diesen Preis bezahlt, obwohl er selbst ohne Sünde war. Dadurch wurden wir Menschen von der Sünde erlöst und der Weg für uns zu Gott ist wieder frei. Das Böse scheint dabei zu triumphieren, da Gottes Sohn besiegt scheint, jedoch wird es gerade dadurch überwunden. Die anschließende Auferstehung zeigt, dass Leid und Tod nicht das letzte Wort haben.
+Das Kreuz ist Gottes tiefste Antwort auf das Böse: Er selbst nimmt es auf sich, um uns zu retten. In Jesus Christus hat Gott selbst das menschliche Leid, den Schmerz, die Ungerechtigkeit und den Tod auf sich genommen. Gott ist also nicht fern von Leid, sondern weiß ganz genau, wie sich der tiefste Schmerz, der Tod, anfühlt. Als wahrer Mensch hat Jesus Schmerz, Verlassenheit und Tod wirklich erfahren. Am Kreuz rief er: „Mein Gott, mein Gott, warum hast du mich verlassen?“ (Matthäus 27, 46). Dabei blieb er zugleich wahrer Gott. Er hat sein Leben freiwillig und stellvertretend für uns hingegeben, obwohl er selbst ohne Sünde war. Dadurch wurden wir Menschen von der Sünde erlöst und der Weg für uns zu Gott ist wieder frei. Das Böse scheint dabei zu triumphieren, da Gottes Sohn besiegt scheint, jedoch wird es gerade dadurch überwunden. Die anschließende Auferstehung zeigt, dass Leid und Tod nicht das letzte Wort haben.
 
-!! Gott weiß, wie sich das schlimmste Leid anfühlt. Somit kann er sehr gut mit unserem Leid mitfühlen. Die Auferstehung zeigt auch, dass Leid und Tod (als stärkste Waffe des Bösen) nicht das Ende sind. Das Böse wurde zwar besiegt, jedoch steht der Tag des Jüngsten Gerichts noch vor uns, an dem Gott das Böse richtet und Gerechtigkeit schafft.
+!! In Jesus Christus weiß Gott, wie sich das schlimmste Leid anfühlt. Somit kann er sehr gut mit unserem Leid mitfühlen. Die Auferstehung zeigt auch, dass Leid und Tod (als stärkste Waffe des Bösen) nicht das Ende sind. Durch Jesu Opfer ist die Macht des Bösen gebrochen, auch wenn es in der Welt noch wirksam ist. Endgültig beseitigt wird es erst, wenn Gott das Böse richtet und vollkommene Gerechtigkeit schafft.
 
 ## Jede Medaille hat zwei Seiten
 

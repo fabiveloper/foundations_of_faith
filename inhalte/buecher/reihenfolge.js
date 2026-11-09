@@ -34,5 +34,11 @@ Inhalt.thema({
 | das gesamte Bibelbuch.
 | Mensch, gebrauche, was du liesest,
 | dir zum Segen, nicht zum Fluch.
+
+## Die Spätschriften (Apokryphen)
+
+Der Merkvers nennt die 39 Bücher des Alten und die 27 Bücher des Neuen Testaments. Die Luther-Bibel enthält zwischen Altem und Neuem Testament zusätzlich die 14 alttestamentlichen Spätschriften, auch Apokryphen genannt, zum Beispiel Judit, Weisheit, Tobit, Jesus Sirach, Baruch und die Bücher der Makkabäer.
+
+Sie sind ein wichtiges Bindeglied zwischen Altem und Neuem Testament und für Glaube und Lehre ebenso verbindlich wie die übrigen Bücher des Alten Testaments.
 `
 });
